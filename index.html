@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div style="flex;">
+        Imperial ton:
+        <input type="number" id="i-ton" name="i-ton" onchange="iTon(this.value)"/>
+      </div>
+      <div style="flex;">
+        Metric ton:
+        <input type="number" id="m-ton" name="m-ton" onchange="mTon(this.value)">
+        </input>
+      </div>
+      <div style="flex;">
+        Pound:
+        <input type="number" id="lb" name="lb" onchange="pound(this.value)"/>
+      </div>
+      <div style="flex;">
+        Kilogram:
+        <input type="number" id="kg" name="kg"  onchange="kilogram(this.value)"/>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
